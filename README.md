@@ -2,7 +2,9 @@
 
 # Guilherme Pinheiro
 
-**Data Engineer & Automation Specialist** @ Claro S.A. | Sao Paulo, Brazil
+**Data Engineer & Automation Specialist** @ Claro S.A. | Founder @ [Datano](https://datano.com.br)
+
+Sao Paulo, Brazil
 
 [![GitHub followers](https://img.shields.io/github/followers/GuilhermeP96?style=social)](https://github.com/GuilhermeP96)
 [![GitHub Stars](https://img.shields.io/github/stars/GuilhermeP96?style=social&affiliations=OWNER)](https://github.com/GuilhermeP96)
@@ -13,7 +15,9 @@
 
 ### About
 
-I build high-performance tools, data pipelines, and automation systems. Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** -- a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support.
+Founder of **[Datano](https://datano.com.br)** -- a data engineering & data science consultancy delivering ETL/ELT pipelines, data warehouses, ML solutions, custom dashboards, and API integrations. 50+ projects delivered across Azure (Data Factory, Databricks, Synapse), AWS, Python, SQL, and Power BI.
+
+Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** -- a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support.
 
 Currently working on GPU-aware optimization for [ollama](https://github.com/ollama/ollama) and contributing to the AI inference ecosystem.
 

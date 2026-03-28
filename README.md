@@ -62,21 +62,11 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 ### Private Activity
 
 <!-- START_SECTION:private_activity -->
-Beyond public repos, I maintain **33** private projects spanning:
+Beyond public repos, I maintain **0** private projects spanning:
 
 | Language | Projects |
 |----------|----------|
-| Python | 12 |
-| TypeScript | 4 |
-| Shell | 4 |
-| RouterOS Script | 2 |
-| HTML | 2 |
-| PowerShell | 2 |
-| C# | 1 |
-| JavaScript | 1 |
-| Java | 1 |
-| PHP | 1 |
-| Other | 3 |
+
 
 Areas include data engineering, web apps, network automation, enterprise integrations, and tooling.
 <!-- END_SECTION:private_activity -->
@@ -93,8 +83,8 @@ Areas include data engineering, web apps, network automation, enterprise integra
 | Metric | Value |
 |--------|-------|
 | Version | v0.10.0 |
-| Modules | 22 |
-| Test Files | 20 |
+| Modules | 21 |
+| Test Files | 19 |
 | Stars | 0 |
 | GPU Vendors | NVIDIA, AMD, Intel, ARM |
 | Platforms | Linux, Windows, macOS, Android/Termux, IoT/SBC |
@@ -109,10 +99,10 @@ Areas include data engineering, web apps, network automation, enterprise integra
 <!-- START_SECTION:forks -->
 | Fork | Upstream | Branch | Status |
 |------|----------|--------|--------|
+| [phpmixbill](https://github.com/GuilhermeP96/phpmixbill) | [ibnux/phpmixbill](https://github.com/ibnux/phpmixbill) | `GuilhermeP96-patch-1`, `GuilhermeP96-patch-2` | -- |
+| [ADModule](https://github.com/GuilhermeP96/ADModule) | [samratashok/ADModule](https://github.com/samratashok/ADModule) | `feature/ad-query-tool-v2` | PR Open |
+| [ollama](https://github.com/GuilhermeP96/ollama) | [ollama/ollama](https://github.com/ollama/ollama) | `api`, `bmizerany/client-registry`, `bmizerany/embedspeedup` | PR Open |
 | [Aios](https://github.com/GuilhermeP96/Aios) | [harshitgavita-07/Aios](https://github.com/harshitgavita-07/Aios) | `feat/sdk-streaming-hardware-aware` | PR Merged |
-| [ollama](https://github.com/GuilhermeP96/ollama) | [ollama/ollama](https://github.com/ollama/ollama) | `feat/autotune` | PR Open |
-| [ADModule](https://github.com/GuilhermeP96/ADModule) | [samratashok/ADModule](https://github.com/samratashok/ADModule) | -- | PR Open |
-| [phpmixbill](https://github.com/GuilhermeP96/phpmixbill) | [ibnux/phpmixbill](https://github.com/ibnux/phpmixbill) | -- | PR Merged |
 <!-- END_SECTION:forks -->
 
 #### Pull Requests
@@ -123,8 +113,8 @@ Areas include data engineering, web apps, network automation, enterprise integra
 | [feat: Ollama SDK integration, streaming UI, hardware-aware model selection](https://github.com/harshitgavita-07/Aios/pull/1) | harshitgavita-07/Aios | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2026-03-27 |
 | [feat: autotune - automatic hardware-based performance optimization](https://github.com/ollama/ollama/pull/15081) | ollama/ollama | ![Open](https://img.shields.io/badge/-Open-238636) | 2026-03-26 |
 | [feat: Add comprehensive AD user query tool v2.0](https://github.com/samratashok/ADModule/pull/11) | samratashok/ADModule | ![Open](https://img.shields.io/badge/-Open-238636) | 2026-01-06 |
-| [Added Brazilian Portuguese language.](https://github.com/GuilhermeP96/phpmixbill/pull/2) | ibnux/phpmixbill | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2017-04-03 |
-| [Brazilian Portuguese language added](https://github.com/GuilhermeP96/phpmixbill/pull/1) | ibnux/phpmixbill | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2017-04-03 |
+| [Added Brazilian Portuguese language.](https://github.com/GuilhermeP96/phpmixbill/pull/2) | GuilhermeP96/phpmixbill | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2017-04-03 |
+| [Brazilian Portuguese language added](https://github.com/GuilhermeP96/phpmixbill/pull/1) | GuilhermeP96/phpmixbill | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2017-04-03 |
 <!-- END_SECTION:prs -->
 
 ---
@@ -149,9 +139,9 @@ Areas include data engineering, web apps, network automation, enterprise integra
 <div align="center">
 
 <!-- START_SECTION:stats -->
-**16** public repos | **33** private repos | **8** followers | **5** PRs | **3** merged
+**16** public repos | **0** private repos | **8** followers | **5** PRs | **3** merged
 <!-- END_SECTION:stats -->
 
-*Last updated: 2026-03-27 via [GitHub Actions](https://github.com/GuilhermeP96/GuilhermeP96/actions)*
+*Last updated: 2026-03-28 06:28 UTC*
 
 </div>

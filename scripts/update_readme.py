@@ -253,7 +253,9 @@ def update_section(readme, section, content):
         rf"(<!-- START_SECTION:{re.escape(section)} -->\n).*?"
         rf"(\n<!-- END_SECTION:{re.escape(section)} -->)"
     )
-    return re.sub(pattern, rf"\g<1>{content}\g<2>", readme, flags=re.DOTALL)
+    def _repl(m):
+        return m.group(1) + content + m.group(2)
+    return re.sub(pattern, _repl, readme, flags=re.DOTALL)
 
 
 def main():

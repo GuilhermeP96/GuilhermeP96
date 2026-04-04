@@ -92,8 +92,8 @@ Areas include data engineering, web apps, network automation, enterprise integra
 <!-- START_SECTION:pyaccelerate -->
 | Metric | Value |
 |--------|-------|
-| Version | v0.10.0 |
-| Modules | 21 |
+| Version | v0.11.0 |
+| Modules | 27 |
 | Test Files | 19 |
 | Stars | 0 |
 | GPU Vendors | NVIDIA, AMD, Intel, ARM |
@@ -152,6 +152,6 @@ Areas include data engineering, web apps, network automation, enterprise integra
 **16** public repos | **41** private repos | **9** followers | **5** PRs | **3** merged
 <!-- END_SECTION:stats -->
 
-*Last updated: 2026-04-03 06:35 UTC*
+*Last updated: 2026-04-04 06:30 UTC*
 
 </div>

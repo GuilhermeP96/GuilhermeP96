@@ -62,21 +62,21 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 ### Private Activity
 
 <!-- START_SECTION:private_activity -->
-Beyond public repos, I maintain **47** private projects spanning:
+Beyond public repos, I maintain **48** private projects spanning:
 
 | Language | Projects |
 |----------|----------|
 | Python | 17 |
-| PowerShell | 8 |
+| PowerShell | 7 |
 | TypeScript | 5 |
 | Shell | 4 |
-| Other | 3 |
 | HTML | 3 |
+| Java | 2 |
+| Other | 2 |
+| JavaScript | 2 |
+| C# | 2 |
 | RouterOS Script | 2 |
 | PHP | 1 |
-| Java | 1 |
-| JavaScript | 1 |
-| C# | 1 |
 | Jupyter Notebook | 1 |
 
 Areas include data engineering, web apps, network automation, enterprise integrations, and tooling.
@@ -150,9 +150,9 @@ Areas include data engineering, web apps, network automation, enterprise integra
 <div align="center">
 
 <!-- START_SECTION:stats -->
-**16** public repos | **47** private repos | **9** followers | **5** PRs | **3** merged
+**18** public repos | **48** private repos | **9** followers | **5** PRs | **3** merged
 <!-- END_SECTION:stats -->
 
-*Last updated: 2026-08-16 06:15 UTC*
+*Last updated: 2026-08-16 16:17 UTC*
 
 </div>

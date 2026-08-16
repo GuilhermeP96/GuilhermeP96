@@ -108,8 +108,7 @@ Areas include data engineering, web apps, network automation, enterprise integra
 
 #### animus
 
-<a href="https://github.com/GuilhermeP96/animus">
-**Animus** is a peer-to-peer memory synchronization network for GitHub Copilot and Claude Code. It collects, indexes, and syncs AI interaction context across machines through a self-hosted hub:
+**[Animus](https://github.com/GuilhermeP96/animus)** is a peer-to-peer memory synchronization network for GitHub Copilot and Claude Code. It collects, indexes, and syncs AI interaction context across machines through a self-hosted hub:
 
 - **Collectors**: Copilot chat, debug logs, Claude Code transcripts, `copilot-instructions.md`, `.instructions.md`, `.prompt.md`, `.agent.md`, `/memories/` notes, and MCP knowledge graph.
 - **Indexer**: Full-text + semantic search (SQLite FTS5 + sentence-transformers).

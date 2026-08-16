@@ -88,7 +88,7 @@ Areas include data engineering, web apps, network automation, enterprise integra
 ### pyaccelerate
 
 <a href="https://github.com/GuilhermeP96/pyaccelerate">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeP96&repo=pyaccelerate&theme=tokyonight" alt="pyaccelerate" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=GuilhermeP96&repo=pyaccelerate&theme=tokyonight" alt="pyaccelerate" />
 </a>
 
 <!-- START_SECTION:pyaccelerate -->
@@ -109,9 +109,6 @@ Areas include data engineering, web apps, network automation, enterprise integra
 #### animus
 
 <a href="https://github.com/GuilhermeP96/animus">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeP96&repo=animus&theme=tokyonight" alt="animus" />
-</a>
-
 **Animus** is a peer-to-peer memory synchronization network for GitHub Copilot and Claude Code. It collects, indexes, and syncs AI interaction context across machines through a self-hosted hub:
 
 - **Collectors**: Copilot chat, debug logs, Claude Code transcripts, `copilot-instructions.md`, `.instructions.md`, `.prompt.md`, `.agent.md`, `/memories/` notes, and MCP knowledge graph.
@@ -174,8 +171,8 @@ Tech: Python, scikit-learn, pandas, regex-based rules, pluggable LLM layer.
 ### GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GuilhermeP96&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeP96&layout=compact&theme=tokyonight&langs_count=10" height="180" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=GuilhermeP96&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=GuilhermeP96&layout=compact&theme=tokyonight&langs_count=10" height="180" alt="Top Languages" />
 </div>
 
 <div align="center">

@@ -48,6 +48,7 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 | [pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate) | High-performance Python acceleration engine -- CPU, multi-GPU, NPU, IoT, K8s, auto-tuning | Python, CUDA, Cython, Rust |
 | [ollama-accelerate](https://github.com/GuilhermeP96/ollama-accelerate) | Automatic hardware detection and performance optimization for Ollama | Python |
 | [python-gpu-statistical-analysis](https://github.com/GuilhermeP96/python-gpu-statistical-analysis) | GPU-accelerated statistical analysis with CuPy/CUDA and NumPy fallback | Python, CUDA |
+| [animus](https://github.com/GuilhermeP96/animus) | Peer-to-peer memory sync network for GitHub Copilot & Claude Code — sessions, prompts, agents, MCP knowledge | Python, FastAPI, SQLite FTS5, WebSockets |
 | [bf6-optimizer](https://github.com/GuilhermeP96/bf6-optimizer) | Battlefield 6 performance & network optimization scripts for Windows | PowerShell |
 | [CSVToolBox](https://github.com/GuilhermeP96/CSVToolBox) | Toolkit for processing CSV, Excel and tabular formats | Python |
 | [CSVSplitter](https://github.com/GuilhermeP96/CSVSplitter) | Split large CSV files preserving charset, separator and formatting | Python |
@@ -100,6 +101,46 @@ Areas include data engineering, web apps, network automation, enterprise integra
 | GPU Vendors | NVIDIA, AMD, Intel, ARM |
 | Platforms | Linux, Windows, macOS, Android/Termux, IoT/SBC |
 <!-- END_SECTION:pyaccelerate -->
+
+---
+
+### AI & ML Projects
+
+#### animus
+
+<a href="https://github.com/GuilhermeP96/animus">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GuilhermeP96&repo=animus&theme=tokyonight" alt="animus" />
+</a>
+
+**Animus** is a peer-to-peer memory synchronization network for GitHub Copilot and Claude Code. It collects, indexes, and syncs AI interaction context across machines through a self-hosted hub:
+
+- **Collectors**: Copilot chat, debug logs, Claude Code transcripts, `copilot-instructions.md`, `.instructions.md`, `.prompt.md`, `.agent.md`, `/memories/` notes, and MCP knowledge graph.
+- **Indexer**: Full-text + semantic search (SQLite FTS5 + sentence-transformers).
+- **Sync**: HTTPS/WSS peer-to-peer replication between machines and a VPS hub.
+- **CLI**: `animus` entry point for status, sync, and admin operations.
+
+Tech: Python, FastAPI, Uvicorn, WebSockets, Pydantic, SQLite FTS5, Rich, Typer, Docker, Nginx.
+
+#### NPS Classification Engine
+
+Enterprise feedback classification system built for telecom NPS verbatims. It runs an **auditable cascade** that separates customer feedback from operator noise and classifies each record by product, reason, sub-reason, sentiment, root cause, and recommended action.
+
+| Layer | Technique | Role |
+|-------|-----------|------|
+| 0 | Separator | Extracts customer feedback vs. operator boilerplate |
+| 1 | Deterministic rules | Priority regex -- fast and auditable |
+| 2 | Custom ML model | TF-IDF (word + char) + ensemble (LogReg + ComplementNB) |
+| 3 | Pluggable AI | Low-confidence escalation to LLM (opt-in) |
+| -- | Fallback | Manual review when confidence is too low |
+
+Key design decisions:
+- Confidence measured as margin between top-2 classes: `top1 / (top1 + top2)`.
+- Multi-scenario architecture: `core/` engine + `profiles/` plug-ins; the first profile is verbatim NPS, new domains add new profiles without touching core.
+- Status bands: `CLASSIFICADO` (≥ 0.90), `PENDENTE` (0.40–0.90), `ANÁLISE_MANUAL` (< 0.40).
+
+Tech: Python, scikit-learn, pandas, regex-based rules, pluggable LLM layer.
+
+> Repository is private and corporate-bound, so only technical approach and public patterns are shared here.
 
 ---
 

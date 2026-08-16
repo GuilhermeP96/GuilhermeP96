@@ -15,9 +15,11 @@ Sao Paulo, Brazil
 
 ### About
 
-Founder of **[Datano](https://datano.com.br)** -- a data engineering & data science consultancy delivering ETL/ELT pipelines, data warehouses, ML solutions, custom dashboards, and API integrations. 50+ projects delivered across Azure (Data Factory, Databricks, Synapse), AWS, Python, SQL, and Power BI.
+Founder of **[Datano](https://datano.com.br)** — a data engineering & data science consultancy delivering ETL/ELT pipelines, data warehouses, ML solutions, custom dashboards, and API integrations. 50+ projects delivered across Azure (Data Factory, Databricks, Synapse), AWS, Python, SQL, and Power BI.
 
-Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** -- a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support.
+My work spans five main domains: **AI/LLM agents & MCP tooling**, **data engineering & ML pipelines**, **cloud/DevOps & VPS orchestration**, **Microsoft 365 / SharePoint / Graph API integrations**, and **network automation (MikroTik, RouterOS, proxies)**.
+
+Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** — a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support — and **[animus](https://github.com/GuilhermeP96/animus)** — a peer-to-peer memory sync network for AI assistants.
 
 Currently working on GPU-aware optimization for [ollama](https://github.com/ollama/ollama) and contributing to the AI inference ecosystem.
 
@@ -36,8 +38,33 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
   <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white" alt="CUDA" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white" alt="Swift" />
   <img src="https://img.shields.io/badge/MikroTik-293239?style=flat&logo=mikrotik&logoColor=white" alt="MikroTik" />
 </p>
+
+---
+
+### Focus Areas
+
+| Domain | What I build | Key tech |
+|--------|--------------|----------|
+| **AI / LLM / Agents** | Memory sync networks, agent squads, MCP toolkits, local LLM optimization, transcription & diarization | Python, FastAPI, MCP, Ollama, Whisper, SQLite FTS5 |
+| **Data Engineering & ML** | ETL/ELT pipelines, GPU-accelerated analytics, NPS/verbatim classification, data warehouses | Python, SQL, PL/SQL, CUDA, scikit-learn, KNIME, Pandas |
+| **Cloud, DevOps & VPS** | Multi-project VPS orchestration, Docker stacks, CI/CD, licensing systems, boot/recovery tools | Docker, Nginx, PostgreSQL, Redis, Linux, PowerShell |
+| **Microsoft 365 & SharePoint** | Graph API integrations, Power Automate MCP, SharePoint CRUD, mail archiving | TypeScript, PowerShell, Microsoft Graph, SharePoint |
+| **Network & Infrastructure** | MikroTik/RouterOS automation, load balancers, proxies, hotspot managers, network optimizers | RouterOS Script, Python, Shell, C |
+| **Mobile & Embedded** | Android toolkit, device rooting, multiboot USB, cross-platform legacy browsers | Python, Kotlin, Swift, Java, JavaScript |
+| **ERP & Web** | Integrated ERPs, portals, landing pages, Markdown-to-HTML pipelines | Python, TypeScript, JavaScript, HTML/CSS |
 
 ---
 
@@ -80,7 +107,7 @@ Beyond public repos, I maintain **48** private projects spanning:
 | PHP | 1 |
 | Jupyter Notebook | 1 |
 
-Areas include data engineering, web apps, network automation, enterprise integrations, and tooling.
+Areas include data engineering, AI/LLM tooling and MCP servers, web apps and ERPs, network automation (MikroTik/RouterOS, proxies, load balancing), Microsoft 365/SharePoint integrations, VPS orchestration, and general systems tooling.
 <!-- END_SECTION:private_activity -->
 
 ---

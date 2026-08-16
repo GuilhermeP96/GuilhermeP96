@@ -114,8 +114,11 @@ Areas include data engineering, web apps, network automation, enterprise integra
 - **Indexer**: Full-text + semantic search (SQLite FTS5 + sentence-transformers).
 - **Sync**: HTTPS/WSS peer-to-peer replication between machines and a VPS hub.
 - **CLI**: `animus` entry point for status, sync, and admin operations.
+- **MCP Server**: Exposes indexed memories and cross-session context through a Model Context Protocol server, so Copilot, Claude Code, and any MCP-compatible assistant can query past context in real time during a chat.
 
-Tech: Python, FastAPI, Uvicorn, WebSockets, Pydantic, SQLite FTS5, Rich, Typer, Docker, Nginx.
+The MCP interface is what makes Animus practical day-to-day: instead of losing context between sessions or machines, the assistant can ask the memory network for relevant notes, prior decisions, project conventions, and previous chat turns on demand.
+
+Tech: Python, FastAPI, Uvicorn, WebSockets, Pydantic, SQLite FTS5, Rich, Typer, Docker, Nginx, MCP.
 
 #### NPS Classification Engine
 

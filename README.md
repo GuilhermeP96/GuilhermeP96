@@ -59,7 +59,7 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 | Domain | What I build | Key tech |
 |--------|--------------|----------|
 | **AI / LLM / Agents** | Memory sync networks, agent squads, MCP toolkits, local LLM optimization, transcription & diarization | Python, FastAPI, MCP, Ollama, Whisper, SQLite FTS5 |
-| **Data Engineering & ML** | ETL/ELT pipelines, GPU-accelerated analytics, NPS/verbatim classification, data warehouses | Python, SQL, PL/SQL, CUDA, scikit-learn, KNIME, Pandas |
+| **Data Engineering & ML** | ETL/ELT pipelines, GPU-accelerated analytics, NPS/verbatim classification, data warehouses, visual workflow orchestration | Python, Java, SQL, PL/SQL, CUDA, scikit-learn, KNIME, Pandas |
 | **Cloud, DevOps & VPS** | Multi-project VPS orchestration, Docker stacks, CI/CD, licensing systems, boot/recovery tools | Docker, Nginx, PostgreSQL, Redis, Linux, PowerShell |
 | **Microsoft 365 & SharePoint** | Graph API integrations, Power Automate MCP, SharePoint CRUD, mail archiving | TypeScript, PowerShell, Microsoft Graph, SharePoint |
 | **Network & Infrastructure** | MikroTik/RouterOS automation, load balancers, proxies, hotspot managers, network optimizers | RouterOS Script, Python, Shell, C |
@@ -107,7 +107,7 @@ Beyond public repos, I maintain **48** private projects spanning:
 | PHP | 1 |
 | Jupyter Notebook | 1 |
 
-Areas include data engineering, AI/LLM tooling and MCP servers, web apps and ERPs, network automation (MikroTik/RouterOS, proxies, load balancing), Microsoft 365/SharePoint integrations, VPS orchestration, and general systems tooling.
+Areas include data engineering, AI/LLM tooling and MCP servers, visual ETL workflow orchestration, web apps and ERPs, network automation (MikroTik/RouterOS, proxies, load balancing), Microsoft 365/SharePoint integrations, VPS orchestration, and general systems tooling.
 <!-- END_SECTION:private_activity -->
 
 ---
@@ -167,6 +167,20 @@ Key design decisions:
 Tech: Python, scikit-learn, pandas, regex-based rules, pluggable LLM layer.
 
 > Repository is private and corporate-bound, so only technical approach and public patterns are shared here.
+
+#### IRobot-Not
+
+Proprietary desktop **ETL workflow orchestrator** built from scratch with **Java 23 + Swing**. It provides a visual, graphical interface for designing, scheduling, and executing data pipelines without relying on enterprise ETL suites.
+
+- **Visual pipeline designer**: drag-and-drop style workflow composition via Swing UI.
+- **Multi-source connectivity**: JDBC integration with Oracle, SQL Server, PostgreSQL, MySQL, and flat files.
+- **Execution engine**: multi-threaded orchestration with ExecutorService, retry logic, error handling, and execution logging.
+- **Extensible architecture**: plugin-friendly transformation steps and configurable pipeline definitions.
+- **Observability**: real-time execution status, logs, and failure diagnostics directly in the UI.
+
+Tech: Java 23, Swing, JDBC, ExecutorService, JSON/YAML, Maven, Oracle, SQL Server, PostgreSQL, MySQL.
+
+> Repository is private and proprietary; only the technical approach and public architecture patterns are shared here.
 
 ---
 

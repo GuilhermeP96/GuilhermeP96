@@ -19,7 +19,7 @@ Founder of **[Datano](https://datano.com.br)** — a data engineering & data sci
 
 My work spans five main domains: **AI/LLM agents & MCP tooling**, **data engineering & ML pipelines**, **cloud/DevOps & VPS orchestration**, **Microsoft 365 / SharePoint / Graph API integrations**, and **network automation (MikroTik, RouterOS, proxies)**.
 
-Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** — a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support — and **[animus](https://github.com/GuilhermeP96/animus)** — a peer-to-peer memory sync network for AI assistants.
+Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** — a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support — and **Animus**, a self-hosted AI memory synchronization network.
 
 Currently working on GPU-aware optimization for [ollama](https://github.com/ollama/ollama) and contributing to the AI inference ecosystem.
 
@@ -75,7 +75,7 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 | [pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate) | High-performance Python acceleration engine -- CPU, multi-GPU, NPU, IoT, K8s, auto-tuning | Python, CUDA, Cython, Rust |
 | [ollama-accelerate](https://github.com/GuilhermeP96/ollama-accelerate) | Automatic hardware detection and performance optimization for Ollama | Python |
 | [python-gpu-statistical-analysis](https://github.com/GuilhermeP96/python-gpu-statistical-analysis) | GPU-accelerated statistical analysis with CuPy/CUDA and NumPy fallback | Python, CUDA |
-| [animus](https://github.com/GuilhermeP96/animus) | Peer-to-peer memory sync network for GitHub Copilot & Claude Code — sessions, prompts, agents, MCP knowledge | Python, FastAPI, SQLite FTS5, WebSockets |
+| [win-inventory-portable](https://github.com/GuilhermeP96/win-inventory-portable) | Portable Windows inventory toolkit for collecting and exporting system information | PowerShell |
 | [bf6-optimizer](https://github.com/GuilhermeP96/bf6-optimizer) | Battlefield 6 performance & network optimization scripts for Windows | PowerShell |
 | [CSVToolBox](https://github.com/GuilhermeP96/CSVToolBox) | Toolkit for processing CSV, Excel and tabular formats | Python |
 | [CSVSplitter](https://github.com/GuilhermeP96/CSVSplitter) | Split large CSV files preserving charset, separator and formatting | Python |
@@ -133,23 +133,28 @@ Areas include data engineering, AI/LLM tooling and MCP servers, visual ETL workf
 
 ### AI & ML Projects
 
-#### animus
+#### Animus — AI Memory Synchronization Network
 
-**[Animus](https://github.com/GuilhermeP96/animus)** is a peer-to-peer memory synchronization network for GitHub Copilot and Claude Code. It collects, indexes, and syncs AI interaction context across machines through a self-hosted hub:
+**Animus** is a private, self-hosted memory synchronization network for AI assistants. It collects, indexes, curates, and syncs context across machines through a secured hub:
 
-- **Collectors**: Copilot chat, debug logs, Claude Code transcripts, `copilot-instructions.md`, `.instructions.md`, `.prompt.md`, `.agent.md`, `/memories/` notes, and MCP knowledge graph.
-- **Indexer**: Full-text + semantic search (SQLite FTS5 + sentence-transformers).
-- **Sync**: HTTPS/WSS peer-to-peer replication between machines and a VPS hub.
-- **CLI**: `animus` entry point for status, sync, and admin operations.
-- **MCP Server**: Exposes indexed memories and cross-session context through a Model Context Protocol server, so Copilot, Claude Code, and any MCP-compatible assistant can query past context in real time during a chat.
+- **Multi-assistant collection**: GitHub Copilot Chat and CLI, Claude Code, Antigravity, project instructions, prompts, agent definitions, and curated notes.
+- **Knowledge retrieval**: SQLite FTS5 search across sessions, projects, decisions, and reusable technical context.
+- **Knowledge OS**: Verified material is promoted into a structured Obsidian vault, keeping raw memory separate from curated knowledge.
+- **Secure synchronization**: Signed HTTPS requests, replay protection, peer identity and version visibility through a self-hosted hub.
+- **Peer lifecycle**: Automatic release checks plus idempotent ZIP packages for installation, update, or repair on Linux and Windows.
+- **MCP and Web**: MCP retrieval for compatible assistants and a sanitized Markdown viewer with Mermaid diagram rendering.
 
-The MCP interface is what makes Animus practical day-to-day: instead of losing context between sessions or machines, the assistant can ask the memory network for relevant notes, prior decisions, project conventions, and previous chat turns on demand.
+The MCP interface makes the network practical day-to-day: assistants can retrieve relevant notes, prior decisions, project conventions, and previous sessions on demand without exposing infrastructure details publicly.
 
-Tech: Python, FastAPI, Uvicorn, WebSockets, Pydantic, SQLite FTS5, Rich, Typer, Docker, Nginx, MCP.
+Tech: Python, FastAPI, Pydantic, SQLite FTS5, HTTPS, HMAC-SHA256, Obsidian, Mermaid, Docker, systemd, Windows Task Scheduler, MCP.
+
+#### Multi-Agent Orchestration Platform
+
+Private platform for coordinating specialist AI squads through reusable workflows, explicit task routing, contextual memory, and Builder/Validator quality gates. Publicly shareable patterns include multi-stage execution, specialist handoffs, and evidence-based validation; agent definitions, infrastructure, and operational data remain private.
 
 #### NPS Classification Engine
 
-Enterprise feedback classification system built for telecom NPS verbatims. It runs an **auditable cascade** that separates customer feedback from operator noise and classifies each record by product, reason, sub-reason, sentiment, root cause, and recommended action.
+Enterprise feedback classification system for NPS verbatims. It runs an **auditable cascade** that separates customer feedback from operational boilerplate and classifies each record by product, reason, sub-reason, sentiment, root cause, and recommended action.
 
 | Layer | Technique | Role |
 |-------|-----------|------|
@@ -181,6 +186,18 @@ Proprietary desktop **ETL workflow orchestrator** built from scratch with **Java
 Tech: Java 23, Swing, JDBC, ExecutorService, JSON/YAML, Maven, Oracle, SQL Server, PostgreSQL, MySQL.
 
 > Repository is private and proprietary; only the technical approach and public architecture patterns are shared here.
+
+#### Selected Private Systems (Anonymized)
+
+| System | Public architecture summary |
+|--------|-----------------------------|
+| Integrated operations ERP | Modular commercial, field-service, project, inventory, finance, HR, accounting, supplier, fleet, and contract workflows |
+| Franchise operations platform | Web portals for operational workflows, feedback, authentication, and structured business data |
+| Secure network operations portal | Controlled remote network management with encrypted connectivity, auditability, and role-based access |
+| Microsoft 365 integration gateway | Application-authenticated automation for mail, files, and collaboration services with least-privilege access |
+| Accessible music technology | Assistive score interpretation combining optical recognition, structured music notation, audio, and accessible interaction |
+
+Client identities, domains, hostnames, repositories, environment topology, credentials, and business-specific rules are intentionally omitted.
 
 ---
 
@@ -234,6 +251,6 @@ Tech: Java 23, Swing, JDBC, ExecutorService, JSON/YAML, Maven, Oracle, SQL Serve
 **18** public repos | **48** private repos | **9** followers | **5** PRs | **3** merged
 <!-- END_SECTION:stats -->
 
-*Last updated: 2026-08-16 16:17 UTC*
+*Last updated: 2026-09-12 UTC*
 
 </div>

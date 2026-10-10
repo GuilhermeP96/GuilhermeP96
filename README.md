@@ -2,7 +2,7 @@
 
 # Guilherme Pinheiro
 
-**Data Engineer & Automation Specialist** @ Claro S.A. | Founder @ [Datano](https://datano.com.br)
+**Data Steward & Data Translation Specialist** @ Claro Brasil | Data Engineering & Automation | Founder @ [Datano](https://datano.com.br)
 
 Sao Paulo, Brazil
 
@@ -15,13 +15,28 @@ Sao Paulo, Brazil
 
 ### About
 
+Since **October 1, 2026**, I have been part of the **CNX Mobile (CNX Móvel)** squad at **Claro Brasil** as a **Data Steward / Data Translation Specialist**. My focus is data quality, integrity and traceability: connecting technical information with business needs, documenting definitions and rules, and supporting source reconciliation and validation.
+
+My background in **Anti-Fraud, Marketing, Data Engineering and Backend Development** shapes how I approach this role. I build pipelines and automation, and help teams understand what the data means and how it supports decisions.
+
 Founder of **[Datano](https://datano.com.br)** — a data engineering & data science consultancy delivering ETL/ELT pipelines, data warehouses, ML solutions, custom dashboards, and API integrations. 50+ projects delivered across Azure (Data Factory, Databricks, Synapse), AWS, Python, SQL, and Power BI.
 
-My work spans five main domains: **AI/LLM agents & MCP tooling**, **data engineering & ML pipelines**, **cloud/DevOps & VPS orchestration**, **Microsoft 365 / SharePoint / Graph API integrations**, and **network automation (MikroTik, RouterOS, proxies)**.
+My work combines **data governance & quality**, **AI/LLM agents & MCP tooling**, **data engineering & ML pipelines**, **cloud/DevOps & VPS orchestration**, **Microsoft 365 / SharePoint / Graph API integrations**, and **network automation (MikroTik, RouterOS, proxies)**.
 
 Creator of **[pyaccelerate](https://github.com/GuilhermeP96/pyaccelerate)** — a Python acceleration engine with multi-GPU, NPU, IoT, and Kubernetes support — and **Animus**, a self-hosted AI memory synchronization network.
 
 Currently working on GPU-aware optimization for [ollama](https://github.com/ollama/ollama) and contributing to the AI inference ecosystem.
+
+### Career at Claro Brasil
+
+| Period | Role | Focus |
+|--------|------|-------|
+| **Oct 1, 2026 – Present** | **Data Steward / Data Translation Specialist — CNX Mobile** | Data quality, integrity, traceability, business definitions, metadata, source reconciliation and validation criteria |
+| Dec 2024 – Sep 2026 | Marketing Specialist | Data engineering, automated workflows, strategic reporting and business indicators |
+| Oct 2023 – Dec 2024 | Senior Marketing Analyst | Process automation, reporting and data solutions for business decisions |
+| May 2022 – Oct 2023 | Senior Anti-Fraud Analyst | Fraud-prevention indicators, analysis and operational automation |
+
+Across my previous roles at Claro, I reduced data processing time by **97.22%** through workflow redesign and automation, built indicators that supported fraud-prevention decisions, and developed BI dashboards and data environments. I bring that engineering experience to my current work connecting data, technology and business teams.
 
 ### Tech Stack
 
@@ -58,6 +73,7 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 
 | Domain | What I build | Key tech |
 |--------|--------------|----------|
+| **Data Governance & Quality** | Business definitions, data dictionaries, metadata and lineage documentation, source reconciliation, validation and acceptance criteria | SQL, PL/SQL, Python, BI, collaborative documentation |
 | **AI / LLM / Agents** | Memory sync networks, agent squads, MCP toolkits, local LLM optimization, transcription & diarization | Python, FastAPI, MCP, Ollama, Whisper, SQLite FTS5 |
 | **Data Engineering & ML** | ETL/ELT pipelines, GPU-accelerated analytics, NPS/verbatim classification, data warehouses, visual workflow orchestration | Python, Java, SQL, PL/SQL, CUDA, scikit-learn, KNIME, Pandas |
 | **Cloud, DevOps & VPS** | Multi-project VPS orchestration, Docker stacks, CI/CD, licensing systems, boot/recovery tools | Docker, Nginx, PostgreSQL, Redis, Linux, PowerShell |
@@ -90,24 +106,28 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 ### Private Activity
 
 <!-- START_SECTION:private_activity -->
-Beyond public repos, I maintain **48** private projects spanning:
+Beyond public repos, I maintain **64** private projects spanning:
 
 | Language | Projects |
 |----------|----------|
-| Python | 17 |
+| Python | 22 |
+| TypeScript | 7 |
 | PowerShell | 7 |
-| TypeScript | 5 |
 | Shell | 4 |
-| HTML | 3 |
+| Other | 4 |
+| HTML | 4 |
+| JavaScript | 3 |
+| RouterOS Script | 3 |
 | Java | 2 |
-| Other | 2 |
-| JavaScript | 2 |
 | C# | 2 |
-| RouterOS Script | 2 |
 | PHP | 1 |
+| TSQL | 1 |
+| Go | 1 |
+| VBA | 1 |
 | Jupyter Notebook | 1 |
+| Batchfile | 1 |
 
-Areas include data engineering, AI/LLM tooling and MCP servers, visual ETL workflow orchestration, web apps and ERPs, network automation (MikroTik/RouterOS, proxies, load balancing), Microsoft 365/SharePoint integrations, VPS orchestration, and general systems tooling.
+Areas include data engineering, web apps, network automation, enterprise integrations, and tooling.
 <!-- END_SECTION:private_activity -->
 
 ---
@@ -121,9 +141,9 @@ Areas include data engineering, AI/LLM tooling and MCP servers, visual ETL workf
 <!-- START_SECTION:pyaccelerate -->
 | Metric | Value |
 |--------|-------|
-| Version | v0.11.0 |
+| Version | v0.11.2 |
 | Modules | 27 |
-| Test Files | 19 |
+| Test Files | 20 |
 | Stars | 0 |
 | GPU Vendors | NVIDIA, AMD, Intel, ARM |
 | Platforms | Linux, Windows, macOS, Android/Termux, IoT/SBC |
@@ -208,10 +228,15 @@ Client identities, domains, hostnames, repositories, environment topology, crede
 <!-- START_SECTION:forks -->
 | Fork | Upstream | Branch | Status |
 |------|----------|--------|--------|
-| [phpmixbill](https://github.com/GuilhermeP96/phpmixbill) | [ibnux/phpmixbill](https://github.com/ibnux/phpmixbill) | `GuilhermeP96-patch-1`, `GuilhermeP96-patch-2` | -- |
 | [ADModule](https://github.com/GuilhermeP96/ADModule) | [samratashok/ADModule](https://github.com/samratashok/ADModule) | `feature/ad-query-tool-v2` | PR Open |
-| [ollama](https://github.com/GuilhermeP96/ollama) | [ollama/ollama](https://github.com/ollama/ollama) | `api`, `bmizerany/client-registry`, `bmizerany/embedspeedup` | PR Open |
 | [Aios](https://github.com/GuilhermeP96/Aios) | [harshitgavita-07/Aios](https://github.com/harshitgavita-07/Aios) | `feat/sdk-streaming-hardware-aware` | PR Merged |
+| [kedro](https://github.com/GuilhermeP96/kedro) | [kedro-org/kedro](https://github.com/kedro-org/kedro) | `2973-enable-access-to-omegaconfigloader-dictconfig-instead-of-dict-only`, `base-0.19.15`, `chore/reflection_system` | -- |
+| [kedro-mlflow](https://github.com/GuilhermeP96/kedro-mlflow) | [Galileo-Galilei/kedro-mlflow](https://github.com/Galileo-Galilei/kedro-mlflow) | `645-on_pipeline_error-raises-an-error-when-the-pipeline-fails-and-threadrunner-is-used`, `dependabot/pip/mlflow-gte-2.7.0-and-lt-4.0.0`, `dependabot/pip/pytest-cov-gte-2.8.0-and-lt-8.0.0` | PR Open |
+| [kedro-viz](https://github.com/GuilhermeP96/kedro-viz) | [kedro-org/kedro-viz](https://github.com/kedro-org/kedro-viz) | `2660-metadata-backup`, `bug/icon-color`, `chore/backend_v2_strat` | PR Open |
+| [mcp-server-excel](https://github.com/GuilhermeP96/mcp-server-excel) | [sbroenne/mcp-server-excel](https://github.com/sbroenne/mcp-server-excel) | `analytics-data`, `dependabot/npm_and_yarn/multi-c5ebbb4833`, `dependabot/npm_and_yarn/vscode-extension/fast-uri-3.1.7` | -- |
+| [mcp-windows](https://github.com/GuilhermeP96/mcp-windows) | [sbroenne/mcp-windows](https://github.com/sbroenne/mcp-windows) | `dependabot/npm_and_yarn/vscode-extension/oxlint-1.82.0`, `dependabot/npm_and_yarn/vscode-extension/types/node-26.5.1`, `dependabot/pip/tests/Sbroenne.WindowsMcp.LLM.Tests/anyio-4.15.1` | -- |
+| [ollama](https://github.com/GuilhermeP96/ollama) | [ollama/ollama](https://github.com/ollama/ollama) | `api`, `bmizerany/client-registry`, `bmizerany/embedspeedup` | PR Open |
+| [phpmixbill](https://github.com/GuilhermeP96/phpmixbill) | [ibnux/phpmixbill](https://github.com/ibnux/phpmixbill) | `GuilhermeP96-patch-1`, `GuilhermeP96-patch-2` | -- |
 <!-- END_SECTION:forks -->
 
 #### Pull Requests
@@ -219,8 +244,12 @@ Client identities, domains, hostnames, repositories, environment topology, crede
 <!-- START_SECTION:prs -->
 | PR | Repository | Status | Date |
 |----|-----------|--------|------|
+| [perf: index outgoing edges for transitive traversal](https://github.com/kedro-org/kedro-viz/pull/2808) | kedro-org/kedro-viz | ![Open](https://img.shields.io/badge/-Open-238636) | 2026-10-08 |
+| [Add opt-in synchronous batching for metric histories](https://github.com/Galileo-Galilei/kedro-mlflow/pull/692) | Galileo-Galilei/kedro-mlflow | ![Open](https://img.shields.io/badge/-Open-238636) | 2026-10-08 |
+| [fix: prevent re.sub backreference corruption in README section updates](https://github.com/GuilhermeP96/GuilhermeP96/pull/1) | GuilhermeP96/GuilhermeP96 | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2026-03-29 |
 | [feat: Ollama SDK integration, streaming UI, hardware-aware model selection](https://github.com/harshitgavita-07/Aios/pull/1) | harshitgavita-07/Aios | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2026-03-27 |
 | [feat: autotune - automatic hardware-based performance optimization](https://github.com/ollama/ollama/pull/15081) | ollama/ollama | ![Open](https://img.shields.io/badge/-Open-238636) | 2026-03-26 |
+| [feat: weekly PyPI download stats via GitHub Actions + README badges](https://github.com/GuilhermeP96/pyaccelerate/pull/1) | GuilhermeP96/pyaccelerate | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2026-03-24 |
 | [feat: Add comprehensive AD user query tool v2.0](https://github.com/samratashok/ADModule/pull/11) | samratashok/ADModule | ![Open](https://img.shields.io/badge/-Open-238636) | 2026-01-06 |
 | [Added Brazilian Portuguese language.](https://github.com/GuilhermeP96/phpmixbill/pull/2) | GuilhermeP96/phpmixbill | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2017-04-03 |
 | [Brazilian Portuguese language added](https://github.com/GuilhermeP96/phpmixbill/pull/1) | GuilhermeP96/phpmixbill | ![Merged](https://img.shields.io/badge/-Merged-8957e5) | 2017-04-03 |
@@ -248,9 +277,9 @@ Client identities, domains, hostnames, repositories, environment topology, crede
 <div align="center">
 
 <!-- START_SECTION:stats -->
-**18** public repos | **48** private repos | **9** followers | **5** PRs | **3** merged
+**26** public repos | **64** private repos | **10** followers | **9** PRs | **5** merged
 <!-- END_SECTION:stats -->
 
-*Last updated: 2026-09-12 UTC*
+*Last updated: 2026-10-10 11:51 UTC*
 
 </div>

@@ -2,7 +2,7 @@
 
 # Guilherme Pinheiro
 
-**Data Steward & Data Translation Specialist** @ Claro Brasil | Data Engineering & Automation | Founder @ [Datano](https://datano.com.br)
+**Data & Applied AI Solutions Architect** | Data Steward @ Claro Brasil | Founder @ [Datano](https://datano.com.br)
 
 Sao Paulo, Brazil
 
@@ -15,11 +15,13 @@ Sao Paulo, Brazil
 
 ### About
 
+My professional focus is **Data & Applied AI Solutions Architecture**: designing data pipelines, integrations and AI-powered automation that connect business requirements to reliable implementations.
+
 Since **October 1, 2026**, I have been part of the **CNX Mobile (CNX Móvel)** squad at **Claro Brasil** as a **Data Steward / Data Translation Specialist**. My focus is data quality, integrity and traceability: connecting technical information with business needs, documenting definitions and rules, and supporting source reconciliation and validation.
 
 My background in **Anti-Fraud, Marketing, Data Engineering and Backend Development** shapes how I approach this role. I build pipelines and automation, and help teams understand what the data means and how it supports decisions.
 
-Founder of **[Datano](https://datano.com.br)** — a data engineering & data science consultancy delivering ETL/ELT pipelines, data warehouses, ML solutions, custom dashboards, and API integrations. 50+ projects delivered across Azure (Data Factory, Databricks, Synapse), AWS, Python, SQL, and Power BI.
+Founder of **[Datano](https://datano.com.br)** — a consultancy focused on data solution architecture, data engineering, systems integration and applied AI, using Azure, AWS, Python, SQL and Power BI.
 
 My work combines **data governance & quality**, **AI/LLM agents & MCP tooling**, **data engineering & ML pipelines**, **cloud/DevOps & VPS orchestration**, **Microsoft 365 / SharePoint / Graph API integrations**, and **network automation (MikroTik, RouterOS, proxies)**.
 

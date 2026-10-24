@@ -34,8 +34,8 @@ Currently working on GPU-aware optimization for [ollama](https://github.com/olla
 | Period | Role | Focus |
 |--------|------|-------|
 | **Oct 1, 2026 – Present** | **Data Steward / Data Translation Specialist — CNX Mobile** | Data quality, integrity, traceability, business definitions, metadata, source reconciliation and validation criteria |
-| Dec 2024 – Sep 2026 | Marketing Specialist | Data engineering, automated workflows, strategic reporting and business indicators |
-| Oct 2023 – Dec 2024 | Senior Marketing Analyst | Process automation, reporting and data solutions for business decisions |
+| Nov 2024 – Sep 2026 | Marketing Specialist | Data engineering, automated workflows, strategic reporting and business indicators |
+| Oct 2023 – Nov 2024 | Senior Marketing Analyst | Process automation, reporting and data solutions for business decisions |
 | May 2022 – Oct 2023 | Senior Anti-Fraud Analyst | Fraud-prevention indicators, analysis and operational automation |
 
 Across my previous roles at Claro, I reduced data processing time by **97.22%** through workflow redesign and automation, built indicators that supported fraud-prevention decisions, and developed BI dashboards and data environments. I bring that engineering experience to my current work connecting data, technology and business teams.
